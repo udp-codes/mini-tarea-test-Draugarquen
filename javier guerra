@@ -1,0 +1,95 @@
+// problema 1 
+
+tdaconjunto
+{
+	nodo *head;
+	nodo *tail;
+	int contador=0;
+	void agregar(data x)
+	{
+		nodo *aux= new nodo(x); 
+		if(head->next==NULL)
+		{
+			head->next=aux;
+		}
+		if(head->next!=NULL)
+		{
+			insertar(x);
+		}
+		cont++;
+	}
+	data saca()
+	{
+		nodo *aux;
+		aux=head;
+		if(head->next==NULL)
+		{
+			return -1;
+		}
+		if(head->next!=NULL)
+		{
+			int R=rand(cont)
+			for(int i =0;i<R;i++)
+			{
+				aux=aux->next;
+				if(i=r-1)
+				{
+					nodo *aux2=new nodo();
+					aux2=aux-next;
+					aux=aux->next->next;
+					data x=aux2->data;
+					return (x);
+				}
+			}
+		}
+	}
+	bool estavacio()
+	{
+		bool respuesta=isempty()
+		if (respuesta == true)
+		{return 1;
+		}
+		else 
+		return -1;
+	}
+	
+	
+}
+
+
+// pregunta2
+
+class item
+{
+	public:
+		string valor;
+		int cant_llamadasç
+		nodo *next;
+		void agregar(item i)
+		{
+			item x=new item()
+			x
+		 while(true)
+		 {
+			if(this->item.next==NULL)
+			{
+				this->item.next=i;
+			}
+			else
+			this->item.next=item->next;
+	     }
+		}
+		int probabilidad(string valor)
+		{
+			while(this->item.valor!=valor)
+			{
+				if(this->item.valor==valor)
+				{
+					return (1/(cant_lamadas)*100)
+				}
+				else
+				{
+				   this->item.next=item->next;
+				}
+			}
+		}
